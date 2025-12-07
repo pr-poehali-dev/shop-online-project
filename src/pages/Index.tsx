@@ -359,7 +359,7 @@ export default function Index() {
                 </div>
                 <div>
                   <h4 className="font-bold mb-1">Адрес</h4>
-                  <p className="text-muted-foreground">г. Москва, ул. Примерная, д. 123</p>
+                  <p className="text-muted-foreground">г. Москва, ул. Тверская, д. 123</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
