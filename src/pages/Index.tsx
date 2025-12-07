@@ -30,51 +30,51 @@ export default function Index() {
   const products: Product[] = [
     {
       id: 1,
-      name: 'Беспроводные наушники Premium',
-      price: 8990,
-      category: 'Аудио',
-      image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop',
-      description: 'Высококачественный звук и активное шумоподавление',
+      name: 'English World 1 Student Book',
+      price: 1490,
+      category: 'Учебники',
+      image: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=500&h=500&fit=crop',
+      description: 'Современный курс для 1 класса с интерактивными заданиями',
     },
     {
       id: 2,
-      name: 'Умные часы Sport Pro',
-      price: 12990,
-      category: 'Гаджеты',
-      image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop',
-      description: 'Отслеживание активности и уведомления',
+      name: 'Oxford Discover 2',
+      price: 1790,
+      category: 'Учебники',
+      image: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=500&h=500&fit=crop',
+      description: 'Европейский учебник для 2 класса с красочными иллюстрациями',
     },
     {
       id: 3,
-      name: 'Портативная колонка Bass',
-      price: 4990,
-      category: 'Аудио',
-      image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&h=500&fit=crop',
-      description: 'Мощный звук в компактном корпусе',
+      name: 'Kid\'s Box 3 Activity Book',
+      price: 990,
+      category: 'Рабочие тетради',
+      image: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=500&h=500&fit=crop',
+      description: 'Рабочая тетрадь Cambridge для 3 класса',
     },
     {
       id: 4,
-      name: 'Ноутбук UltraBook 15',
-      price: 89990,
-      category: 'Компьютеры',
-      image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&h=500&fit=crop',
-      description: 'Производительность для работы и развлечений',
+      name: 'Super Minds 4 Student\'s Book',
+      price: 1890,
+      category: 'Учебники',
+      image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500&h=500&fit=crop',
+      description: 'Учебник Cambridge с QR-кодами для аудио',
     },
     {
       id: 5,
-      name: 'Механическая клавиатура RGB',
-      price: 7990,
-      category: 'Аксессуары',
-      image: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&h=500&fit=crop',
-      description: 'Игровая клавиатура с подсветкой',
+      name: 'Everybody Up 1 Workbook',
+      price: 890,
+      category: 'Рабочие тетради',
+      image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=500&h=500&fit=crop',
+      description: 'Oxford рабочая тетрадь с играми и заданиями',
     },
     {
       id: 6,
-      name: 'Веб-камера 4K Pro',
-      price: 6990,
-      category: 'Аксессуары',
-      image: 'https://images.unsplash.com/photo-1614624532983-4ce03382d63d?w=500&h=500&fit=crop',
-      description: 'Кристально чистое видео для стримов',
+      name: 'Family and Friends 2',
+      price: 1590,
+      category: 'Учебники',
+      image: 'https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=500&h=500&fit=crop',
+      description: 'Популярный европейский курс Oxford для младших школьников',
     },
   ];
 
@@ -125,17 +125,17 @@ export default function Index() {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center min-h-[600px]">
             <div className="space-y-6 animate-fade-in">
-              <Badge className="gradient-purple text-white border-0">Новая коллекция 2024</Badge>
+              <Badge className="gradient-purple text-white border-0">Новинки сезона 2024</Badge>
               <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-                Технологии <span className="text-gradient">будущего</span> уже здесь
+                Английский для <span className="text-gradient">детей</span> легко и интересно
               </h1>
               <p className="text-lg text-muted-foreground">
-                Откройте для себя инновационные гаджеты и аксессуары, которые изменят вашу жизнь
+                Современные европейские учебники для начальной школы с увлекательными заданиями
               </p>
               <div className="flex gap-4">
                 <Button size="lg" className="gradient-purple text-white hover:opacity-90" onClick={() => document.getElementById('catalog')?.scrollIntoView({ behavior: 'smooth' })}>
-                  <Icon name="ShoppingBag" size={20} className="mr-2" />
-                  Перейти в каталог
+                  <Icon name="BookOpen" size={20} className="mr-2" />
+                  Смотреть учебники
                 </Button>
                 <Button size="lg" variant="outline">
                   Узнать больше
@@ -145,7 +145,7 @@ export default function Index() {
             <div className="relative animate-scale-in">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-pink-400 rounded-3xl blur-3xl opacity-20"></div>
               <img
-                src="https://images.unsplash.com/photo-1468495244123-6c6c332eeece?w=800&h=800&fit=crop"
+                src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=800&fit=crop"
                 alt="Hero"
                 className="relative rounded-3xl shadow-2xl"
               />
@@ -158,9 +158,9 @@ export default function Index() {
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">
-              Наш <span className="text-gradient">каталог</span>
+              Каталог <span className="text-gradient">учебников</span>
             </h2>
-            <p className="text-muted-foreground">Выберите то, что вам нужно</p>
+            <p className="text-muted-foreground">Выберите подходящий курс для вашего ребенка</p>
           </div>
 
           <div className="flex flex-wrap justify-center gap-3 mb-8">
@@ -171,7 +171,7 @@ export default function Index() {
                 onClick={() => setSelectedCategory(category)}
                 className={selectedCategory === category ? 'gradient-purple text-white' : ''}
               >
-                {category === 'all' ? 'Все товары' : category}
+{category === 'all' ? 'Все книги' : category}
               </Button>
             ))}
           </div>
@@ -221,18 +221,18 @@ export default function Index() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-400 rounded-3xl blur-3xl opacity-20"></div>
               <img
-                src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&h=600&fit=crop"
+                src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=600&fit=crop"
                 alt="About"
                 className="relative rounded-3xl shadow-2xl"
               />
             </div>
             <div className="space-y-6">
               <h2 className="text-4xl font-bold">
-                О <span className="text-gradient">ShopHub</span>
+                О <span className="text-gradient">BookHub</span>
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Мы — команда энтузиастов технологий, которая верит в силу инноваций. Наша миссия —
-                сделать передовые гаджеты доступными каждому.
+                Мы специализируемся на лучших европейских учебниках английского языка. Наша миссия —
+                сделать обучение английскому увлекательным и эффективным для каждого ребенка.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="space-y-2">
@@ -240,14 +240,14 @@ export default function Index() {
                     <Icon name="Award" size={24} className="text-white" />
                   </div>
                   <h4 className="font-bold">Качество</h4>
-                  <p className="text-sm text-muted-foreground">Только проверенные бренды</p>
+                  <p className="text-sm text-muted-foreground">Только Oxford, Cambridge, Pearson</p>
                 </div>
                 <div className="space-y-2">
                   <div className="w-12 h-12 rounded-full gradient-blue flex items-center justify-center">
                     <Icon name="Truck" size={24} className="text-white" />
                   </div>
                   <h4 className="font-bold">Доставка</h4>
-                  <p className="text-sm text-muted-foreground">Быстро по всей России</p>
+                  <p className="text-sm text-muted-foreground">Быстрая доставка по России</p>
                 </div>
               </div>
             </div>
@@ -261,24 +261,24 @@ export default function Index() {
             <h2 className="text-4xl font-bold mb-4">
               Наш <span className="text-gradient">блог</span>
             </h2>
-            <p className="text-muted-foreground">Новости и статьи о технологиях</p>
+            <p className="text-muted-foreground">Полезные статьи об обучении английскому</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
               {
-                title: 'Топ-10 гаджетов 2024 года',
+                title: 'Как выбрать первый учебник английского',
                 date: '15 декабря 2024',
-                image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&h=400&fit=crop',
+                image: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&h=400&fit=crop',
               },
               {
-                title: 'Как выбрать идеальные наушники',
+                title: 'Европейские методики: что важно знать',
                 date: '10 декабря 2024',
-                image: 'https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600&h=400&fit=crop',
+                image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=400&fit=crop',
               },
               {
-                title: 'Будущее умных часов',
+                title: 'ТОП-5 курсов для начальной школы',
                 date: '5 декабря 2024',
-                image: 'https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=600&h=400&fit=crop',
+                image: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&h=400&fit=crop',
               },
             ].map((post, i) => (
               <Card key={i} className="overflow-hidden hover:shadow-xl transition-shadow">
@@ -323,20 +323,20 @@ export default function Index() {
             </AccordionItem>
             <AccordionItem value="item-3" className="border rounded-lg px-6">
               <AccordionTrigger className="text-left font-semibold">
-                Есть ли гарантия на товары?
+                Почему европейские учебники?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                Да, на все товары распространяется официальная гарантия от производителя сроком
-                от 12 до 24 месяцев.
+                Европейские учебники соответствуют международным стандартам CEFR и используют
+                современные методики обучения с увлекательными заданиями.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4" className="border rounded-lg px-6">
               <AccordionTrigger className="text-left font-semibold">
-                Можно ли вернуть товар?
+                Какой учебник подойдет моему ребенку?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                Да, вы можете вернуть товар в течение 14 дней после получения, если он не был в
-                использовании.
+                Выбор зависит от возраста и уровня ребенка. Напишите нам, и мы поможем
+                подобрать подходящий курс для начальной школы.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
@@ -377,7 +377,7 @@ export default function Index() {
                 </div>
                 <div>
                   <h4 className="font-bold mb-1">Email</h4>
-                  <p className="text-muted-foreground">info@shophub.ru</p>
+                  <p className="text-muted-foreground">info@bookhub.ru</p>
                 </div>
               </div>
             </div>
@@ -410,12 +410,12 @@ export default function Index() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-10 h-10 rounded-full gradient-purple flex items-center justify-center">
-                  <Icon name="ShoppingBag" size={20} className="text-white" />
+                  <Icon name="BookOpen" size={20} className="text-white" />
                 </div>
-                <span className="text-xl font-bold">ShopHub</span>
+                <span className="text-xl font-bold">BookHub</span>
               </div>
               <p className="text-slate-400 text-sm">
-                Инновационные технологии для вашей жизни
+                Лучшие учебники английского для детей
               </p>
             </div>
             <div>
@@ -450,7 +450,7 @@ export default function Index() {
             </div>
           </div>
           <div className="border-t border-slate-800 mt-8 pt-8 text-center text-sm text-slate-400">
-            © 2024 ShopHub. Все права защищены.
+            © 2024 BookHub. Все права защищены.
           </div>
         </div>
       </footer>

@@ -35,9 +35,9 @@ export default function Navbar({ cartCount, onCartClick }: NavbarProps) {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-full gradient-purple flex items-center justify-center">
-              <Icon name="ShoppingBag" size={20} className="text-white" />
+              <Icon name="BookOpen" size={20} className="text-white" />
             </div>
-            <span className="text-xl font-bold text-gradient">ShopHub</span>
+            <span className="text-xl font-bold text-gradient">BookHub</span>
           </div>
 
           <div className="hidden md:flex items-center gap-6">
